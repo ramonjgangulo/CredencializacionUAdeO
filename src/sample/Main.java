@@ -13,12 +13,14 @@ public class Main extends Application {
 
         FXMLLoader loader = new FXMLLoader(getClass().getResource("sample.fxml"));
         Parent root = loader.load();
-        
+
         Sample = new Scene(root);
         Sample.getStylesheets().addAll("bootstrap3.css", "Estilos.css");
         stage.setTitle("Sensor Credencializacion");
         stage.setScene(Sample);
+        stage.setResizable(false);
         stage.show();
+
     }
 
 

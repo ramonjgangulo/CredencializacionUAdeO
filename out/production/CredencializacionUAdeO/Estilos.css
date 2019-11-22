@@ -2,3 +2,14 @@
 {
     -fx-background-color: #0287fa !important;
 }
+
+.side-button
+{
+    -fx-background-color: #343a40;
+    -fx-text-fill : white;
+}
+.side-button-selected
+{
+    -fx-background-color: #868e96;
+    -fx-text-fill : white;
+}
