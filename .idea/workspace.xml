@@ -52,6 +52,14 @@
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -84,6 +92,10 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programas Sensor\CredencializacionUAdeO\src\Views" />
+      <recent name="D:\Programas Sensor\CredencializacionUAdeO\src\sample" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programas Sensor\CredencializacionUAdeO\src" />
     </key>
@@ -122,10 +134,9 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="CredencializacionUAdeO" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1574454623146" duration="6526000" />
+      <workItem from="1574454623146" duration="11537000" />
     </task>
     <servers />
   </component>

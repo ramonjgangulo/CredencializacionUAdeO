@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AlumnosController">
+   <children>
+      <HBox alignment="CENTER_LEFT" layoutX="14.0" layoutY="56.0" prefHeight="42.0" prefWidth="572.0" spacing="10.0">
+         <children>
+            <ComboBox prefWidth="150.0" />
+            <TextField />
+            <Button mnemonicParsing="false" text="BUSCAR">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <ScrollPane layoutX="14.0" layoutY="98.0" prefHeight="341.0" prefWidth="572.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="335.0" prefWidth="572.0">
+               <children>
+                  <TableView prefHeight="335.0" prefWidth="572.0">
+                    <columns>
+                      <TableColumn prefWidth="76.0" text="MATRICULA" />
+                      <TableColumn prefWidth="123.0" text="NOMBRE" />
+                        <TableColumn prefWidth="115.0" text="APELLIDOS" />
+                        <TableColumn prefWidth="243.0" text="CARRERA" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <HBox alignment="CENTER_LEFT" layoutX="14.0" layoutY="14.0" prefHeight="42.0" prefWidth="572.0" spacing="180.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="300.0" spacing="5.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="61.0" text="Matricula:">
+                     <font>
+                        <Font name="Candara" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField />
+                  <Button mnemonicParsing="false" text="EDITAR" />
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" text="AGREGAR" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

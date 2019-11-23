@@ -13,3 +13,7 @@
     -fx-background-color: #868e96;
     -fx-text-fill : white;
 }
+.dark
+{
+        -fx-background-color:  #343a40;
+}

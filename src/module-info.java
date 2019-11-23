@@ -4,4 +4,6 @@ module CredencializacionUAdeO {
 
 
     opens sample;
+    opens Controllers;
+    opens Views;
 }
